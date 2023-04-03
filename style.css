@@ -29,7 +29,7 @@ section{
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    transition: opacity 0.6s ease 0.7s;
+    transition: opacity 0.6s ease;
 }
 .intro h1{
     font-size: 40px;
@@ -87,9 +87,13 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.7s ease-in 0.5s;
+    text-align: center;
 }
 .player-win{
     font-size: 40px;
+}
+.label button{
+    margin-top: 30px;
 }
 div.fadeout{
     opacity: 0;
